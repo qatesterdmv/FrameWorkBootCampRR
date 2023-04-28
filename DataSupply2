@@ -1,0 +1,18 @@
+package data_drivern_test;
+
+import org.testng.annotations.DataProvider;
+
+public class DataSupply2 {
+
+@DataProvider( name = "ninjaSupplyData2")
+		public Object [][] getNinjaData2() {
+		
+			Object[][] data = {{"seleniumpanda@gmail.com", "Selenium@123"},
+					          {"seleniumpanda1@gmail.com", "Selenium@123"},
+					          {"seleniumpanda2@gmail.com", "Selenium@123"},
+					          {"seleniumpanda3@gmail.com", "Selenium@1234"}};
+			
+					return data;
+	}
+
+}
